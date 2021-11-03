@@ -28,12 +28,12 @@ set n($i) [$simu_gol_gol_rani node]
 }
 
 #for create the lebal 
-$simu_gol_gol_rani at 0.0 "$n(0) label \"Prasant_sir\""
-$simu_gol_gol_rani at 0.0 "$n(1) label \"Bisakha\""
-$simu_gol_gol_rani at 0.0 "$n(2) label \"Abir\""
-$simu_gol_gol_rani at 0.0 "$n(3) label \"Shantanu\""
-$simu_gol_gol_rani at 0.0 "$n(4) label \"Unknown\""
-$simu_gol_gol_rani at 0.0 "$n(5) label \"Ayush\""
+$simu_gol_gol_rani at 0.0 "$n(0) label \"User1\""
+$simu_gol_gol_rani at 0.0 "$n(1) label \"User2\""
+$simu_gol_gol_rani at 0.0 "$n(2) label \"User3\""
+$simu_gol_gol_rani at 0.0 "$n(3) label \"User4\""
+$simu_gol_gol_rani at 0.0 "$n(4) label \"User5\""
+$simu_gol_gol_rani at 0.0 "$n(5) label \"User6\""
 
 #code for the link the nodes with eath other 
 $simu_gol_gol_rani duplex-link $n(0) $n(1) 600Kb 10ms DropTail
